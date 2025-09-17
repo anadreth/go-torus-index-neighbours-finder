@@ -49,14 +49,6 @@ internal/
     └── client_test.go # Integration tests
 ```
 
-### Design Principles Applied
-
-1. **Single Responsibility Principle**: Each class/struct has one reason to change
-2. **Open/Closed Principle**: Code is open for extension, closed for modification
-3. **Dependency Inversion**: High-level modules don't depend on low-level modules
-4. **Interface Segregation**: Small, focused interfaces
-5. **Clean Code**: Descriptive names, short functions, clear intent
-
 ### Key Components
 
 - **`TorusMatrix`**: Core domain entity representing the matrix with coordinate transformations
